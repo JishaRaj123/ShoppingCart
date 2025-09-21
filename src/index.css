@@ -1,0 +1,284 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: hsla(200, 20%, 65%, 0.455);
+}
+
+.container{
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.inside-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;       
+  border-radius: 12px;          
+  padding: 20px 50px;               
+  margin: 20px auto;           
+  width: 450px;       
+  min-height: 300px;         
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+h1{
+  font-size: 3rem;
+  margin:50px;
+  color: rgb(34, 34, 110);
+  /* /* border: 1px solid; */
+  /* border: none; */
+  /* border-radius: 3px;  */
+}
+
+label{
+  font-size:1.5rem ;
+  font-weight: bold;
+  color: rgba(27, 27, 126, 0.816);
+}
+
+
+input[type="text"],[type="number"]{
+      font-size: 1.3rem;
+      padding: 10px;
+      width: 450px;
+      border: 2px solid hsla(0, 0%, 80%, 0.57);
+      border-radius: 8px;
+      color:hsla(0, 0%, 0%, 0.736) ;
+}
+
+select{
+   font-size: 1.3rem;
+      padding: 10px;
+      width: 480px;
+      border: 2px solid hsla(0, 0%, 80%, 0.57);
+      border-radius: 8px;
+      color:hsla(0, 0%, 0%, 0.736) ;
+      
+}
+
+select option[value=""] {
+    color: rgb(11, 0, 128);
+}
+
+.add-button{
+      background-color:rgb(1, 146, 1);
+      color: white;
+      font-size: 1.4rem;
+      padding:15px 25px ;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+
+}
+
+.add-button:hover{
+     background-color: hsl(125, 58%, 24%);
+     transform: scale(1.1);
+}
+
+
+.save-button {
+      background-color: hsl(46, 88%, 53%);
+      color: white;
+      font-size: 1.4rem;
+      padding:15px 25px ;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.save-button:hover{
+     background-color: hsl(54, 78%, 37%);
+     transform: scale(1.1);
+}
+
+
+
+.up-button{
+     background-color: hsl(210, 67%, 41%);
+      color: white;
+      font-size: 1.3rem;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      margin-right: 12px;
+      font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;
+}
+.up-button:hover{
+  background-color: hsl(210, 84%, 27%);
+  transform: scale(1.1);
+}
+
+
+.del-button{
+      background-color:rgb(213, 11, 11);
+      color: white;
+      font-size: 1.3rem;
+      padding: 8px 15px;
+       font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.del-button:hover{
+  background-color: hsl(10,90%,30%);
+  transform: scale(1.1);
+}
+
+h2{
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(8, 8, 99);
+  margin-top: 4rem;
+  margin-bottom: 3.5rem;
+  font-weight: bold;
+}
+
+table{
+  width:60%;
+  border-collapse:collapse;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: whitesmoke;
+
+}
+
+thead {
+  background-color: #1a2975b4;
+  color: white;
+  font-size: 1.5rem;
+ 
+}
+
+th, td {
+  padding: 30px 25px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+ 
+  
+}
+
+tbody tr:hover {
+  background-color: #d4e8f6;
+}
+
+
+tbody,tr,td{
+   font-size: 1.5rem;
+}
+
+h3{
+   margin-top: 5rem;
+   margin-bottom: 10rem;
+   color: rgb(129, 92, 0);
+   border: 1px solid goldenrod;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+   font-size: 22px;
+   border-radius: 6px;
+   padding: 15px  22px;
+   text-align: center;
+   max-width: fit-content;
+   margin-left: auto;       /* center horizontally */
+   margin-right: auto;
+   background-color: whitesmoke;
+}
+
+.error{
+  color: red;
+  margin-top: 19px;
+  font-size: 15px;
+}
+
+.inside-para{
+     font-size: 21px;
+     margin-left: auto;       /* center horizontally */
+     margin-right: auto;
+     margin-bottom: 4rem;
+     color: rgb(15, 4, 72);
+     /* background-color: hsla(251, 85%, 21%, 0.121); */
+     padding: 20px;
+
+}
+
+.no-products{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.card{
+  border: 1px solid hsla(0, 0%, 80%, 0.696);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.244);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 190px;
+  height: 220px;
+  display: inline-block;
+  align-content: center;
+  cursor: pointer;
+  margin-bottom: 80px;
+  /* background-color: hsla(200, 71%, 27%, 0.247); */
+  /* background-color: #1a29752d; */
+  background-color: whitesmoke;
+  margin-top: 50px;
+  margin-right: 40px;
+  
+
+}
+
+
+.card:hover {
+  transform: scale(1.1);
+}
+ .card .card-image{
+  width: 180px;   
+  height: 130px; 
+  object-fit: cover; 
+  border-radius: 10px;
+   margin-bottom: 8px;
+  transition: transform 0.2s ease-in-out
+
+}
+.card .card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: hsl(242, 52%, 19%);
+  font-size: 20px;
+}
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(249, 38%, 40%);
+  font-size: 16px;
+  /* margin-bottom: 5px; */
+}
+
+
+/* .card-background{
+  background-color: hsla(200, 20%, 65%, 0.455);
+  background-color: hsla(200, 20%, 65%, 0.455);
+  background-color: whitesmoke;
+}  */
