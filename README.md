@@ -13,7 +13,9 @@ If you are developing a production application, we recommend using TypeScript wi
 
 # Description
 It allows Users to add, view, update, delete in table format.
+
 Each product contain Name, Price,Quantity,Total cost automaticaaly calculated.
+
 Main goal is how to handle Crud Operations and state management in React.
 
 
