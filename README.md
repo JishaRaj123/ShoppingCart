@@ -11,7 +11,14 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-#ScreenShots
+# Description
+It allows Users to add, view, update, delete in table format.
+Each product contain Name, Price,Quantity,Total cost automaticaaly calculated.
+Main goal is how to handle Crud Operations and state management in React.
+
+
+# ScreenShots
+
 Home Image
 <img width="1920" height="1566" alt="1" src="https://github.com/user-attachments/assets/7c161208-d256-44fc-a435-58df6d1cc3d0" />
 
